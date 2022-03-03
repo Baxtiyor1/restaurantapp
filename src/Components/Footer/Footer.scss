@@ -1,0 +1,10 @@
+.footer{
+    box-shadow: 0 0 4px 4px #f1f1f1;
+    padding: 15px;
+    &__text{
+        text-align: center;
+        color: #f1f1f1;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
