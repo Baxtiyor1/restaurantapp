@@ -18,7 +18,7 @@ function SubCategry() {
         fetch(`https://choserestaurant.herokuapp.com/subcategory/${cat_id}`)
             .then(res => res.json())
             .then(data => setSubCategoryData(data))
-    }, [])
+    }, [cat_id])
 
     return (
         <div className='home'>

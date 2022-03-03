@@ -20,7 +20,7 @@ function Product() {
 
     function addBascet(e) {
         const id = e.target.dataset.id
-        const findProduct = productData.find(e => e.id == id)
+        const findProduct = productData.find(e => e.id === id)
         if(findProduct){
             window.localStorage.setItem('product', JSON.stringify(findProduct))
             alert('Mahsulot savatga qo`shildi')

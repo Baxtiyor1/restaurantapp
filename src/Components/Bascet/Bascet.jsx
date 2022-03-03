@@ -21,7 +21,7 @@ function Bascet() {
                     <div className="bascet__wrapper">
                         <div className="bascet__aside">
                             {
-                                array.length == 1 ? array.map((e, i) => {
+                                array.length === 1 ? array.map((e, i) => {
                                     return (
                                         <li key={i} className='product__item'>
                                             <img className='product__img' src={e.img} alt="img" />
